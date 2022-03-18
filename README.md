@@ -22,7 +22,7 @@ The acquisition of actual image sequences uses the camera on the [Nvidia Jetson 
  ### Generation of 3D point clouds via 3D scanner
 The scanner selected in this experiment is [EinScan Pro 2X Plus Handheld 3D scanner](https://www.einscan.com/handheld-3d-scanner/2x-plus/), According to the different materials of spacecraft, the scanning mode includes handheld fine scanning and handheld fast scanning. The handheld fine scanning mode is used to scan high reflective objects by pasting control points on the target, while the handheld fast scanning mode which does not need to paste control points is feasible for scanning general materials. 
 
-## How to anno point clouds
+## How to anno point clouds?
 our annotation system is based on open-source software [CloudCompare](https://www.cloudcompare.org/),As shown in ![anno system](https://github.com/spacecraft-dataset/spacecraft_3D_component_segmentation_dataset/tree/main/Figure/anno.png)
 
 ## Results
