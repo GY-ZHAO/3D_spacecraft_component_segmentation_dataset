@@ -24,6 +24,21 @@ The scanner selected in this experiment is ![EinScan Pro 2X Plus Handheld 3D sca
 our annotation system is based on open-source software ![CloudCompare](https://www.cloudcompare.org/),As shown in ![anno system](https://github.com/spacecraft-dataset/spacecraft_3D_component_segmentation_dataset/tree/main/Figure/anno.png)
 
 ## Results
-Part of our labeled pointclouds are list in 
+Part of our labeled pointclouds are list as follows
+|Folder|Content|
+|:---|:---|
+|fbx_data|CAD models with .fbx formate downloaded from NASA|
+|obj_data|CAD models with .obj formate generated from fbx_data|
+|raw_point_cloud|point clouds generated from obj_data|
+|labeled_point_cloud|point clouds with semantic labels|
+
+label, number, and points of components.
+|Components|Label|Points num per component|
+|:---|:---|:---|
+|Body|0|6500-15000|
+|Panel|1|8000-12000|
+|Antenna|2|300-1500|
+|Others|3|6000-8000|
+Attention: all point clouds are sampled into 2w points.
 
 
