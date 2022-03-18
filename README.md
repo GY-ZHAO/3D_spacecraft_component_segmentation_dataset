@@ -1,5 +1,7 @@
 # spacecraft_3D_component_segmentation_dataset
 This project proposes a multi-source 3D component segmentation dataset for non-cooperative spacecraft.
+Partial of our dataset containing spacecraft downloaded from NASA can be downloaded ![here](https://drive.google.com/drive/folders/1cTScfdNdbvzIFpNxnpXc_x1ujE2V5yLr)
+
 ## Where to gain 3D spacecraft models?
  We download the CAD model of the published spacecraft from open-source websites, such as NASA (https://www.nasa.gov/, accessed on 15 March 2022), Free3d (https://free3d.com/, accessed on 15 March 2022), etc. Lately, we print the CAD models utilizing the 3D printing technology to get the 3D printed models.
 ![CADimage](https://github.com/spacecraft-dataset/spacecraft_3D_component_segmentation_dataset/tree/main/Figure/CAD.pdf)
@@ -40,5 +42,11 @@ label, number, and points of components.
 |Antenna|2|300-1500|
 |Others|3|6000-8000|
 Attention: all point clouds are sampled into 2w points.
+
+Partial of our dataset can be downloaded ![here](https://drive.google.com/drive/folders/1cTScfdNdbvzIFpNxnpXc_x1ujE2V5yLr).  
+The dataset   
+1、20000_ply_data： contains point clouds in ply format, with 20000 points per point clouds.  
+2、20000txt_sampled： contains labeled point clouds in txt format, with 20000 points per point clouds, and sampled to 17500、15000、12500、10000 、7500、5000.  
+3、2500txt_sampled： mini labeled dataset, with 2500 points per point clouds.  
 
 
