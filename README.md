@@ -1,4 +1,4 @@
-# spacecraft_3D_component_segmentation_dataset
+# 3D spacecraft component segmentation dataset
 This project proposes a multi-source 3D component segmentation dataset for non-cooperative spacecraft.  
 Partial of our dataset containing spacecraft downloaded from [NASA](https://nasa3d.arc.nasa.gov/) can be downloaded [here](https://drive.google.com/drive/folders/1cTScfdNdbvzIFpNxnpXc_x1ujE2V5yLr)
 
